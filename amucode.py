@@ -1,5 +1,6 @@
 namelist = ['hyojung', 'soeun']
 namelist.append('junho')
+namelist.append('jinbeom')
 
 
 for name in namelist :
