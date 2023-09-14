@@ -17,3 +17,5 @@ for i in range(5):
     print(1, '출력: {}'.format(i))
 print(dict1['name1'])
 print(dict1['name2'])
+
+print('hi')
