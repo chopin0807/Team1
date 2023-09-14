@@ -12,4 +12,6 @@ def f_sort(data) :
     return data.sort()
 
 # 내림차순으로 정렬해주는 함수
+def f_desc(data):
+    return data.sort(reverse=True)
 print(f_avg([1, 2, 3, 4, 5]))
