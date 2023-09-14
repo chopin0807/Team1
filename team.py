@@ -1,11 +1,7 @@
-print("팀 프로젝트 프로젝트 테스트 파일입니다.")
-print('효정이 수정함')
-print('dpdpdpd')
-
 # 평균을 구하는 함수
-def f_avg(data):
-    # 코드를 입력해주세요
-    return 1
+def f_avg(data): # 최준호 수정
+    result = sum(data)/len(sum)
+    return result
 
 # 합계를 구하는 함수
 def f_sum(data):
@@ -15,3 +11,5 @@ def f_sum(data):
 # 오름차순으로 정렬해주는 함수
 def f_sort(data) :
     return data.sort()
+
+# 평균구하기
