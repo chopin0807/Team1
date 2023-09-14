@@ -9,9 +9,15 @@ def f_sum(data):
 
 # 오름차순으로 정렬해주는 함수
 def f_sort(data) :
-    return data.sort()
+    data.sort()
+    return data
 
 # 내림차순으로 정렬해주는 함수
 def f_desc(data):
-    return data.sort(reverse=True)
+    data.sort(reverse=True)
+    return data
+
+print(f_sum([1, 2, 3, 4, 5]))
 print(f_avg([1, 2, 3, 4, 5]))
+print(f_sort([1, 2, 3, 4, 5]))
+print(f_desc([1, 2, 3, 4, 5]))
