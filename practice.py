@@ -16,3 +16,4 @@ print(dict1)
 for i in range(5):
     print(1, ' ')
 print(dict1['name1'])
+print(dict1['name2'])
